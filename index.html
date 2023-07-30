@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add SweetAlert CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.0/dist/sweetalert2.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-do List <img src="./images/icon.png" alt="To-do list icon"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+                <!-- Tasks will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Add SweetAlert JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.0/dist/sweetalert2.min.js"></script>
+</body>
+</html>
